@@ -1,2 +1,3 @@
-# le-coq.github.io
-Website of the studio
+# God's Design Studio
+### The guards beauty
+Web development of God's Design Studio site
