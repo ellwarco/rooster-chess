@@ -1,3 +1,3 @@
-# God's Design Studio
+# Rooster Studio
 ### The guards beauty
-Web development of God's Design Studio site
+Web development of Rooster Studio site
