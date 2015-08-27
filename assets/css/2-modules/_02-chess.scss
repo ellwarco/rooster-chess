@@ -1,0 +1,137 @@
+/*-------------------------------------------------------------------------*/
+/* # CHESS
+/*-------------------------------------------------------------------------*/
+main.chess {
+	text-align: center;
+
+	a.logo {
+		position: fixed;
+		z-index: 2;
+		left: 0;
+		top: 18px;
+		width: 175px;
+		height: auto;
+	}
+
+	nav.anhors {
+		border: 1px solid #000;
+		border-width: 1px 0;
+		height: auto;
+		padding: 20px 0;
+		@include transition(all 0.2s $ease-out-quad);
+
+		a {
+			display: inline-block;
+			width: 200px;
+
+			svg {
+				margin: 0 auto 10px;
+				display: block;
+				display: none;
+			}
+
+			img {
+				margin: 0 auto 10px;
+				display: block;
+				width: 84px;
+				height: auto;
+			}
+
+			span {
+				display: block;
+				text-transform: uppercase;
+				font-size: 12px;
+				font-weight: 700;
+			}
+
+			&.active,
+			&:hover {
+				color: red;
+			}
+		}
+	}
+
+	#anhors-fixed {
+		position: fixed;
+		z-index: 1;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: auto;
+		margin: 0 auto;
+		background: #fff;
+		@include transform(translateY(-100%));
+
+		&.anhors-fixed {
+			padding: 10px 0;
+			@include transform(translateY(0));
+
+			a {
+
+				img {
+					width: 42px;
+				}
+			}
+		}
+	}
+
+	section {
+		height: 1000px;
+
+		&.hero {
+			height: 580px;
+			background: url(../img/chess/hero-bg.jpg) center no-repeat;
+			background-size: cover;
+			padding: 60px 0 120px;
+
+			img {
+				width: 262px;
+				height: auto;
+				margin: 0 auto 100px;
+			}
+
+			h2 {
+				font-size: 25px;
+				color: #fff;
+				font-weight: 400;
+				margin: 0;
+			}
+
+			h1 {
+				font-size: 120px;
+				color: #fff;
+				font-weight: 700;
+				text-transform: uppercase;
+				margin: 0;
+			}
+		}
+
+		&.hero {
+			height: 580px;
+			background: url(../img/chess/hero-bg.jpg) center no-repeat;
+			background-size: cover;
+			padding: 60px 0 120px;
+
+			img {
+				margin-bottom: 100px;
+			}
+
+			h2 {
+				font-size: 25px;
+				color: #fff;
+				font-weight: 400;
+				margin: 0;
+			}
+
+			h1 {
+				font-size: 120px;
+				color: #fff;
+				font-weight: 700;
+				text-transform: uppercase;
+				margin: 0;
+			}
+		}
+	}
+}
+
+

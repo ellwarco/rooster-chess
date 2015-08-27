@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="77px" height="77px" viewBox="0 0 77 77" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop-HD" sketch:type="MSArtboardGroup" transform="translate(-377.000000, -570.000000)" stroke-linecap="square" stroke="#55261A">
+            <g id="Group" sketch:type="MSLayerGroup" transform="translate(0.000000, 549.000000)">
+                <g transform="translate(377.000000, 21.000000)" sketch:type="MSShapeGroup">
+                    <g transform="translate(9.000000, 8.000000)">
+                        <rect id="Rectangle-10" x="0" y="8" width="59" height="44"></rect>
+                        <rect id="Rectangle-10-Copy" x="0" y="15" width="59" height="29"></rect>
+                        <rect id="Rectangle-10-Copy-2" x="0" y="22" width="59" height="15"></rect>
+                        <rect id="Rectangle-10-Copy-3" x="0" y="29" width="59" height="1"></rect>
+                        <rect id="Rectangle-10-Copy-7" transform="translate(30.000000, 30.500000) rotate(90.000000) translate(-30.000000, -30.500000) " x="0.5" y="8.5" width="59" height="44"></rect>
+                        <rect id="Rectangle-10-Copy-8" transform="translate(30.000000, 30.500000) rotate(90.000000) translate(-30.000000, -30.500000) " x="0.5" y="16.5" width="59" height="28"></rect>
+                        <rect id="Rectangle-10-Copy-9" transform="translate(30.000000, 30.500000) rotate(90.000000) translate(-30.000000, -30.500000) " x="0.5" y="23.5" width="59" height="14"></rect>
+                        <rect id="Rectangle-10-Copy-10" transform="translate(30.000000, 30.500000) rotate(90.000000) translate(-30.000000, -30.500000) " x="0.5" y="30" width="59" height="1"></rect>
+                    </g>
+                    <rect id="Rectangle-7" x="0" y="0" width="77" height="77" rx="4"></rect>
+                    <rect id="Rectangle-7-Copy" x="9" y="9" width="59" height="59" rx="3"></rect>
+                    <rect id="Rectangle-7-Copy-2" x="0" y="0" width="77" height="10" rx="4"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
