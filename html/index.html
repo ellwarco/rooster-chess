@@ -3,10 +3,16 @@ layout: default
 permalink: /
 ---
 
-<div class="index">
-	<img src="{{ site.baseurl }}/assets/img/home/home.png" alt="...">
-	<h1 class="us-font">Rooster Studio</h1>
-	<h2>The guards beauty</h2>
-	<h3><a href="{{ site.baseurl }}/chess/">chess</a></h3>
-</div>
+<main class="chess">
+
+	{% include chess/01-hero.html %}
+	{% include chess/02-header.html %}
+	{% include chess/03-table.html %}
+	{% include chess/04-hiw.html %}
+	{% include chess/05-figures.html %}
+	{% include chess/06-rooster.html %}
+	{% include chess/07-game.html %}
+	{% include chess/08-team.html %}
+
+</main>
 
