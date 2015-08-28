@@ -77,3 +77,90 @@
 	min-height: 150px;
 	background: url(../img/owl-carousel/AjaxLoader.gif) no-repeat center center
 }
+
+
+
+
+
+
+
+
+
+/* custom styles */
+.owl-theme {
+	.item {
+		img {
+			width: 100%;
+			height: auto;
+			float: left;
+		}
+
+		a.fresco {
+			position: absolute;
+			top: 12px;
+			right: 12px;
+			width: 60px;
+			line-height: 60px;
+			font-size: 30px;
+			border-radius: 30px;
+			background: transparent;
+			opacity: 0.5;
+			color: #fff;
+			@include transition(all 0.2s $ease-out-quad);
+
+			&:hover {
+				font-size: 34px;
+			}
+		}
+	}
+
+	.owl-controls {
+		margin: 0;
+
+		.owl-buttons div {
+			margin: 0;
+			position: absolute;
+			top: 50%;
+			width: 60px;
+			line-height: 60px;
+			font-size: 30px;
+			border-radius: 30px;
+			padding: 0;
+			background: transparent;
+			opacity: 0.5;
+			color: #fff;
+			margin-top: -30px;
+			@include transition(all 0.2s $ease-out-quad);
+
+			&:hover {
+				font-size: 34px;
+			}
+
+			&.owl-prev {
+				left: 12px;
+				font-family: 'icomoon';
+
+				&::before {
+					content: "\e5a8";
+				}
+			}
+			&.owl-next {
+				right: 12px;
+				font-family: 'icomoon';
+
+				&::before {
+					content: "\e5a9";
+				}
+			}
+		}
+	}
+
+	&:hover {
+		.item a.fresco,
+		.owl-controls .owl-buttons div {
+			opacity: 1;
+			background: #fff;
+			color: #55261A;
+		}
+	}
+}
