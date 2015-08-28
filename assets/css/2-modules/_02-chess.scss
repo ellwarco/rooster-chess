@@ -23,6 +23,8 @@ main.chess {
 		a {
 			display: inline-block;
 			width: 200px;
+			color: #55261A;
+			opacity: 1;
 
 			svg {
 				margin: 0 auto 10px;
@@ -45,7 +47,7 @@ main.chess {
 
 			&.active,
 			&:hover {
-				color: red;
+				opacity: 0.6;
 			}
 		}
 	}

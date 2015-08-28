@@ -6,7 +6,7 @@ $('#anhors-static').singlePageNav({
 	easing: 'easeInOutExpo',
 	speed: 1250,
 	offset: 89,
-	currentClass: 'active',
+	// currentClass: 'active',
 });
 $('#anhors-fixed').singlePageNav({
 	easing: 'easeInOutExpo',
