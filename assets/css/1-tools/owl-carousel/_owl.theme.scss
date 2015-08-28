@@ -89,70 +89,75 @@
 
 /* custom styles */
 .owl-theme {
-	.item img {
-		width: 100%;
-		height: auto;
-		float: left;
+	.item {
+		img {
+			width: 100%;
+			height: auto;
+			float: left;
+		}
 	}
 
 	.owl-controls {
 		margin: 0;
+
+		.owl-buttons div {
+			margin: 0;
+			position: absolute;
+			top: 50%;
+			width: 60px;
+			line-height: 60px;
+			font-size: 30px;
+			border-radius: 30px;
+			padding: 0;
+			background: rgba(85, 38, 26, 0.5);
+			opacity: 1;
+			color: #fff;
+			margin-top: -30px;
+			@include transition(all 0.2s $ease-out-quad);
+
+			&.owl-prev {
+				left: 12px;
+				font-family: 'icomoon';
+
+				&::before {
+					content: "\e5a8";
+				}
+			}
+			&.owl-next {
+				right: 12px;
+				font-family: 'icomoon';
+
+				&::before {
+					content: "\e5a9";
+				}
+			}
+		}
 	}
-}
-
-.table .item:hover a.fresco,
-.figures .figure:hover a.fresco,
-.owl-theme:hover a.fresco,
-.owl-theme:hover .owl-controls .owl-buttons div {
-	opacity: 1;
-	background: transparent;
-	color: #fff;
-}
-
-a.fresco,
-.owl-theme a.fresco {
-	top: 12px;
-	right: 12px;
-}
-
-.owl-theme .owl-controls .owl-buttons div {
-	top: 50%;
-	margin-top: -30px;
 
 	&:hover {
-		font-size: 34px;
-		background: #fff;
-		color: #55261A;
-	}
+		.item a.fresco,
+		.owl-controls .owl-buttons div {
+			opacity: 1;
+			color: #fff;
+			background: transparent;
 
-	&.owl-prev {
-		left: 12px;
-		font-family: 'icomoon';
-
-		&::before {
-			content: "\e5a8";
-		}
-	}
-	&.owl-next {
-		right: 12px;
-		font-family: 'icomoon';
-
-		&::before {
-			content: "\e5a9";
+			&:hover {
+				font-size: 34px;
+				color: #55261A;
+				background: #fff;
+			}
 		}
 	}
 }
 
-a.fresco,
-.owl-theme a.fresco,
-.owl-theme .owl-controls .owl-buttons div {
-	margin: 0;
+a.fresco {
 	position: absolute;
+	top: 12px;
+	right: 12px;
 	width: 60px;
 	line-height: 60px;
 	font-size: 30px;
 	border-radius: 30px;
-	padding: 0;
 	background: rgba(85, 38, 26, 0.5);
 	opacity: 1;
 	color: #fff;
@@ -160,8 +165,8 @@ a.fresco,
 
 	&:hover {
 		font-size: 34px;
-		background: #fff;
 		color: #55261A;
+		background: #fff;
 	}
 }
 

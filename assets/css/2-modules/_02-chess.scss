@@ -157,6 +157,20 @@ main.chess {
 					height: auto;
 					float: left;
 				}
+
+				&:hover {
+					a.fresco {
+						opacity: 1;
+						color: #fff;
+						background: transparent;
+
+						&:hover {
+							font-size: 34px;
+							color: #55261A;
+							background: #fff;
+						}
+					}
+				}
 			}
 		}
 
@@ -229,6 +243,20 @@ main.chess {
 					width: 100%;
 					height: auto;
 					float: left;
+				}
+
+				&:hover {
+					a.fresco {
+						opacity: 1;
+						color: #fff;
+						background: transparent;
+
+						&:hover {
+							font-size: 34px;
+							color: #55261A;
+							background: #fff;
+						}
+					}
 				}
 			}
 		}
