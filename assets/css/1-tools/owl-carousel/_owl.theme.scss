@@ -88,80 +88,80 @@
 
 
 /* custom styles */
-a.fresco {
-	position: absolute;
+.owl-theme {
+	.item img {
+		width: 100%;
+		height: auto;
+		float: left;
+	}
+
+	.owl-controls {
+		margin: 0;
+	}
+}
+
+.table .item:hover a.fresco,
+.figures .figure:hover a.fresco,
+.owl-theme:hover a.fresco,
+.owl-theme:hover .owl-controls .owl-buttons div {
+	opacity: 1;
+	background: transparent;
+	color: #fff;
+}
+
+a.fresco,
+.owl-theme a.fresco {
 	top: 12px;
 	right: 12px;
+}
+
+.owl-theme .owl-controls .owl-buttons div {
+	top: 50%;
+	margin-top: -30px;
+
+	&:hover {
+		font-size: 34px;
+		background: #fff;
+		color: #55261A;
+	}
+
+	&.owl-prev {
+		left: 12px;
+		font-family: 'icomoon';
+
+		&::before {
+			content: "\e5a8";
+		}
+	}
+	&.owl-next {
+		right: 12px;
+		font-family: 'icomoon';
+
+		&::before {
+			content: "\e5a9";
+		}
+	}
+}
+
+a.fresco,
+.owl-theme a.fresco,
+.owl-theme .owl-controls .owl-buttons div {
+	margin: 0;
+	position: absolute;
 	width: 60px;
 	line-height: 60px;
 	font-size: 30px;
 	border-radius: 30px;
-	background: transparent;
-	opacity: 0.5;
+	padding: 0;
+	background: rgba(85, 38, 26, 0.5);
+	opacity: 1;
 	color: #fff;
 	@include transition(all 0.2s $ease-out-quad);
 
 	&:hover {
 		font-size: 34px;
+		background: #fff;
+		color: #55261A;
 	}
 }
 
-.owl-theme {
-	.item {
-		img {
-			width: 100%;
-			height: auto;
-			float: left;
-		}
-	}
-
-	.owl-controls {
-		margin: 0;
-
-		.owl-buttons div {
-			margin: 0;
-			position: absolute;
-			top: 50%;
-			width: 60px;
-			line-height: 60px;
-			font-size: 30px;
-			border-radius: 30px;
-			padding: 0;
-			background: transparent;
-			opacity: 0.5;
-			color: #fff;
-			margin-top: -30px;
-			@include transition(all 0.2s $ease-out-quad);
-
-			&:hover {
-				font-size: 34px;
-			}
-
-			&.owl-prev {
-				left: 12px;
-				font-family: 'icomoon';
-
-				&::before {
-					content: "\e5a8";
-				}
-			}
-			&.owl-next {
-				right: 12px;
-				font-family: 'icomoon';
-
-				&::before {
-					content: "\e5a9";
-				}
-			}
-		}
-	}
-
-	&:hover {
-		.item a.fresco,
-		.owl-controls .owl-buttons div {
-			opacity: 1;
-			background: #fff;
-			color: #55261A;
-		}
-	}
-}

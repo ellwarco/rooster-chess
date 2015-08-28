@@ -88,6 +88,7 @@ main.chess {
 			background: #fff;
 		}
 
+		// hero
 		&.hero {
 			height: 580px;
 			background: url(../img/chess/hero/hero-bg.jpg) center no-repeat;
@@ -116,6 +117,7 @@ main.chess {
 			}
 		}
 
+		// table
 		&.table {
 			@include outer-container;
 
@@ -129,7 +131,6 @@ main.chess {
 				@include span-columns(3);
 				@include omega();
 				width: 25%;
-				// min-height: 250px;
 				position: relative;
 
 				h4 {
@@ -156,17 +157,10 @@ main.chess {
 					height: auto;
 					float: left;
 				}
-
-				&:hover {
-					a.fresco  {
-						opacity: 1;
-						background: #fff;
-						color: #55261A;
-					}
-				}
 			}
 		}
 
+		// hiw
 		&.hiw {
 			@include outer-container;
 
@@ -185,6 +179,7 @@ main.chess {
 			}
 		}
 
+		// figures
 		&.figures {
 			@include outer-container;
 
@@ -235,17 +230,10 @@ main.chess {
 					height: auto;
 					float: left;
 				}
-
-				&:hover {
-					a.fresco  {
-						opacity: 1;
-						background: #fff;
-						color: #55261A;
-					}
-				}
 			}
 		}
 
+		// rooster
 		&.rooster {
 			background: #522316;
 			padding: 60px 0;
@@ -273,6 +261,7 @@ main.chess {
 			}
 		}
 
+		// game
 		&.game {
 			@include outer-container;
 
@@ -306,6 +295,7 @@ main.chess {
 			}
 		}
 
+		// team
 		&.team {
 			@include outer-container;
 			background: #4c2015;
@@ -318,6 +308,7 @@ main.chess {
 				h3 {
 				}
 
+				// team members
 				&.members {
 					background: #55261a;
 					@include outer-container;
@@ -381,6 +372,7 @@ main.chess {
 					}
 				}
 
+				// team buy
 				&.buy {
 
 					h3 {
