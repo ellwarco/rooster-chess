@@ -86,31 +86,32 @@
 
 
 
+
 /* custom styles */
+a.fresco {
+	position: absolute;
+	top: 12px;
+	right: 12px;
+	width: 60px;
+	line-height: 60px;
+	font-size: 30px;
+	border-radius: 30px;
+	background: transparent;
+	opacity: 0.5;
+	color: #fff;
+	@include transition(all 0.2s $ease-out-quad);
+
+	&:hover {
+		font-size: 34px;
+	}
+}
+
 .owl-theme {
 	.item {
 		img {
 			width: 100%;
 			height: auto;
 			float: left;
-		}
-
-		a.fresco {
-			position: absolute;
-			top: 12px;
-			right: 12px;
-			width: 60px;
-			line-height: 60px;
-			font-size: 30px;
-			border-radius: 30px;
-			background: transparent;
-			opacity: 0.5;
-			color: #fff;
-			@include transition(all 0.2s $ease-out-quad);
-
-			&:hover {
-				font-size: 34px;
-			}
 		}
 	}
 

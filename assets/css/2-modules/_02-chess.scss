@@ -8,7 +8,7 @@ main.chess {
 		position: fixed;
 		z-index: 2;
 		left: 0;
-		top: 18px;
+		top: 16px;
 		width: 175px;
 		height: auto;
 	}
@@ -75,7 +75,6 @@ main.chess {
 	}
 
 	section {
-		min-height: 500px;
 
 		h3 {
 			text-transform: uppercase;
@@ -116,7 +115,72 @@ main.chess {
 		}
 
 		&.table {
+			@include outer-container;
 
+			.owl-theme {
+				@include span-columns(6);
+				@include omega();
+				width: 50%;
+			}
+
+			article {
+				@include span-columns(3);
+				@include omega();
+				width: 25%;
+				// min-height: 250px;
+				position: relative;
+
+				h4 {
+					font-size: 20px;
+					color: #55261A; 
+					margin: 0;
+					padding: 0 20%;
+					position: absolute;
+					top: 50%;
+					left: 0;
+					width: 100%;
+					@include transform(translateY(-50%));
+
+					[class^="icon-hammer"] {
+						font-size: 40px;
+						color: #55261A;
+						display: block;
+						margin-bottom: 20px;
+					}
+				}
+
+				img {
+					width: 100%;
+					height: auto;
+					float: left;
+				}
+
+				&:hover {
+					a.fresco  {
+						opacity: 1;
+						background: #fff;
+						color: #55261A;
+					}
+				}
+			}
+		}
+
+		&.hiw {
+			@include outer-container;
+
+			h4 {
+				font-size: 20px;
+				color: #55261A; 
+				margin: 0;
+				padding: 40px 0;
+
+				[class^="icon-hand"] {
+					font-size: 40px;
+					color: #55261A;
+					display: block;
+					margin-bottom: 20px;
+				}
+			}
 		}
 
 		&.figures {
@@ -181,8 +245,8 @@ main.chess {
 						img {
 							width: 100%;
 							height: auto;
-							max-width: 220px;
-							margin: 0 auto 20px;
+							max-width: 165px;
+							margin: 0 auto 25px;
 							border-radius: 100%;
 						}
 
@@ -220,7 +284,7 @@ main.chess {
 							a {
 								color: #fff;
 								display: inline-block;
-								font-size: 25px;
+								font-size: 20px;
 								padding: 4px 8px;
 
 								&:hover {
@@ -249,7 +313,7 @@ main.chess {
 						a {
 							color: #fff;
 							display: inline-block;
-							font-size: 25px;
+							font-size: 30px;
 							padding: 4px 8px;
 
 							&:hover {
