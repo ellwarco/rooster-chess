@@ -190,6 +190,7 @@ main.chess {
 				@include span-columns(6);
 				@include omega();
 				width: 12.5%;
+				margin-bottom: 80px;
 
 				img {
 					display: inline-block;
@@ -204,6 +205,69 @@ main.chess {
 					font-size: 16px;
 					margin: 0;
 				}
+			}
+
+			div.figure {
+				float: left;
+				position: relative;
+
+				&.figure-01 {
+					width: 50%;
+				}
+
+				&.figure-02 {
+					float: right;
+					width: 50%;
+				}
+
+				&.figure-03 {
+					width: 25%;
+				}
+
+				&.figure-04 {
+					width: 25%;
+				}
+
+				img {
+					width: 100%;
+					height: auto;
+					float: left;
+				}
+
+				&:hover {
+					a.fresco  {
+						opacity: 1;
+						background: #fff;
+						color: #55261A;
+					}
+				}
+			}
+		}
+
+		&.rooster {
+			background: #522316;
+			padding: 60px 0;
+
+			img {
+				width: 134px;
+				height: auto;
+				display: inline-block;
+				margin: 0 auto 40px;
+			}
+
+			h4 {
+				color: #fff;
+				font-size: 28px;
+				margin: 0;
+			}
+
+			h3 {
+				color: #fff;
+				font-size: 40px;
+				background: transparent;
+				padding: 0;
+				margin: 0;
+				text-transform: none;
 			}
 		}
 
