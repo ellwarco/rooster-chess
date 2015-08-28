@@ -77,9 +77,19 @@ main.chess {
 	section {
 		min-height: 500px;
 
+		h3 {
+			text-transform: uppercase;
+			color: #55261A;
+			font-size: 40px;
+			margin: 0;
+			padding: 2.2em 0;
+			font-weight: 500;
+			background: #fff;
+		}
+
 		&.hero {
 			height: 580px;
-			background: url(../img/chess/hero-bg.jpg) center no-repeat;
+			background: url(../img/chess/hero/hero-bg.jpg) center no-repeat;
 			background-size: cover;
 			padding: 60px 0 120px;
 
@@ -114,7 +124,107 @@ main.chess {
 		}
 
 		&.game {
+			@include outer-container;
 
+			h3 {
+				padding-left: 70px;
+				padding-right: 70px;
+				position: relative;
+				display: inline-block;
+
+				&:before,
+				&:after {
+					position: absolute;
+					content: '';
+					top: 0;
+					width: 83px;
+					height: 100%;
+					background-size: contain;
+					background-position: center;
+					background-repeat: no-repeat;
+				}
+
+				&:before {
+					right: 100%;
+					background-image: url(../img/chess/icons/icon-sword-left.png);
+				}
+
+				&:after {
+					left: 100%;
+					background-image: url(../img/chess/icons/icon-sword-right.png);
+				}
+			}
+
+			.owl-theme {
+				.item {
+					img {
+						width: 100%;
+						height: auto;
+						float: left;
+					}
+
+					a.fresco {
+						position: absolute;
+						top: 12px;
+						right: 12px;
+						width: 60px;
+						line-height: 60px;
+						font-size: 30px;
+						border-radius: 30px;
+						background: transparent;
+						opacity: 1;
+						color: #fff;
+						@include transition(all 0.2s $ease-out-quad);
+
+						&:hover {
+							background: #fff;
+							color: #55261A;
+						}
+					}
+				}
+
+				.owl-controls {
+					margin: 0;
+
+					.owl-buttons div {
+						margin: 0;
+						position: absolute;
+						top: 50%;
+						width: 60px;
+						line-height: 60px;
+						font-size: 30px;
+						border-radius: 30px;
+						padding: 0;
+						background: transparent;
+						opacity: 1;
+						color: #fff;
+						margin-top: -30px;
+						@include transition(all 0.2s $ease-out-quad);
+
+						&:hover {
+							background: #fff;
+							color: #55261A;
+						}
+
+						&.owl-prev {
+							left: 12px;
+							font-family: 'icomoon';
+
+							&::before {
+								content: "\e5a8";
+							}
+						}
+						&.owl-next {
+							right: 12px;
+							font-family: 'icomoon';
+
+							&::before {
+								content: "\e5a9";
+							}
+						}
+					}
+				}
+			}
 		}
 
 		&.team {
@@ -127,13 +237,6 @@ main.chess {
 				width: 50%;
 
 				h3 {
-					text-transform: uppercase;
-					color: #55261A;
-					font-size: 40px;
-					margin: 0;
-					padding: 2.2em 0;
-					font-weight: 500;
-					background: #fff;
 				}
 
 				&.members {
@@ -203,6 +306,27 @@ main.chess {
 
 					h3 {
 						background: #f6f6f6;
+					}
+
+					h4 {
+						color: #fff;
+						margin: 2.5em 0;
+						font-size: 20px;
+						font-weight: 500;
+					}
+
+					nav {
+
+						a {
+							color: #fff;
+							display: inline-block;
+							font-size: 25px;
+							padding: 4px 8px;
+
+							&:hover {
+								color: rgba(255,255,255,.2);
+							}
+						}
 					}
 				}
 			}

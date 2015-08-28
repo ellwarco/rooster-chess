@@ -27,3 +27,23 @@ $(window).scroll(function() {
 	}
 });
 
+
+/**
+* OwlCarousel
+* http://owlgraphic.com/owlcarousel/
+*/
+$(function() {
+	$("#game .owl-carousel").owlCarousel({
+		pagination: false,
+		navigation : true,
+		navigationText: false,
+		slideSpeed : 300,
+		paginationSpeed : 400,
+		singleItem: true,
+		// autoPlay: 4000,
+		// stopOnHover: true,
+		lazyLoad: true,
+	});
+});
+
+
