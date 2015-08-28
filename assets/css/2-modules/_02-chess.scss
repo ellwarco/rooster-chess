@@ -30,9 +30,9 @@ main.chess {
 			}
 
 			img {
-				margin: 0 auto 10px;
+				margin: 0 auto 0;
 				display: block;
-				width: 84px;
+				width: 120px;
 				height: auto;
 			}
 
@@ -68,7 +68,7 @@ main.chess {
 			a {
 
 				img {
-					width: 42px;
+					width: 60px;
 				}
 			}
 		}
@@ -184,7 +184,27 @@ main.chess {
 		}
 
 		&.figures {
+			@include outer-container;
 
+			article {
+				@include span-columns(6);
+				@include omega();
+				width: 12.5%;
+
+				img {
+					display: inline-block;
+					margin: 0 auto 10px;
+					width: 100%;
+					height: auto;
+					max-width: 120px;
+				}
+
+				h5 {
+					color: #55261A;
+					font-size: 16px;
+					margin: 0;
+				}
+			}
 		}
 
 		&.game {
@@ -201,7 +221,7 @@ main.chess {
 					position: absolute;
 					content: '';
 					top: 0;
-					width: 83px;
+					width: 120px;
 					height: 100%;
 					background-size: contain;
 					background-position: center;
