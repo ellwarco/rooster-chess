@@ -374,7 +374,7 @@ main.chess {
 								padding: 4px 8px;
 
 								&:hover {
-									color: rgba(255,255,255,.2);
+									color: rgba(255,255,255,.5);
 								}
 							}
 						}
@@ -395,6 +395,7 @@ main.chess {
 					}
 
 					nav {
+						margin-bottom: 20px;
 
 						a {
 							color: #fff;
@@ -403,7 +404,13 @@ main.chess {
 							padding: 4px 8px;
 
 							&:hover {
-								color: rgba(255,255,255,.2);
+								color: rgba(255,255,255,.5);
+							}
+						}
+
+						&.email {
+							a {
+								font-size: 18px;
 							}
 						}
 					}
