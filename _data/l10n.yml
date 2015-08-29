@@ -1,0 +1,27 @@
+t:
+  en:
+    chess:
+      ItsNotChessTable: 'Its Not Chess Table'
+      ItsWar: 'Its War'
+      Table: 'Table'
+      ChessPieces: 'Chess Pieces'
+      Game: 'Game'
+      Team: 'Team'
+  ua:
+    chess:
+      ItsNotChessTable: 'Це не шаховий стіл'
+      ItsWar: 'Це війна'
+      Table: 'Стіл'
+      ChessPieces: 'Фігури'
+      Game: 'Гра'
+      Team: 'Команда'
+  ru:
+    chess:
+      ItsNotChessTable: 'Это не шахматный стол'
+      ItsWar: 'Это война'
+      Table: 'Стол'
+      ChessPieces: 'Фигуры'
+      Game: 'Игра'
+      Team: 'Команда'
+
+
