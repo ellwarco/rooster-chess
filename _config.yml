@@ -7,6 +7,12 @@ defaults:
       lang: en
   -
     scope:
+      path: _posts/pl
+    values:
+      layout: default
+      lang: pl
+  -
+    scope:
       path: _posts/ua
     values:
       layout: default

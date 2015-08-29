@@ -7,6 +7,14 @@ t:
       ChessPieces: 'Chess Pieces'
       Game: 'Game'
       Team: 'Team'
+  pl:
+    chess:
+      ItsNotChessTable: 'To Nie Szachy Tabela'
+      ItsWar: 'To wojna'
+      Table: 'Tabela'
+      ChessPieces: 'Kształty'
+      Game: 'Gra'
+      Team: 'Zespół'
   ua:
     chess:
       ItsNotChessTable: 'Це не шаховий стіл'
