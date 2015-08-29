@@ -38,27 +38,23 @@ $(function() {
 		navigation : true,
 		navigationText: false,
 		slideSpeed : 300,
-		paginationSpeed : 400,
 		singleItem: true,
-		lazyLoad: true,
+		// paginationSpeed : 400,
+		// lazyLoad: true,
 	});
 	$("#hiw .owl-carousel").owlCarousel({
 		pagination: false,
 		navigation : true,
 		navigationText: false,
 		slideSpeed : 300,
-		paginationSpeed : 400,
 		singleItem: true,
-		lazyLoad: true,
 	});
 	$("#game .owl-carousel").owlCarousel({
 		pagination: false,
 		navigation : true,
 		navigationText: false,
 		slideSpeed : 300,
-		paginationSpeed : 400,
 		singleItem: true,
-		lazyLoad: true,
 	});
 });
 
