@@ -83,7 +83,7 @@ main.chess {
 			color: #55261A;
 			font-size: 40px;
 			margin: 0;
-			padding: 2.2em 0;
+			padding: 63px 0;
 			font-weight: 500;
 			background: #fff;
 		}
@@ -201,7 +201,7 @@ main.chess {
 				@include span-columns(6);
 				@include omega();
 				width: 12.5%;
-				margin-bottom: 80px;
+				padding-bottom: 49px;
 
 				img {
 					display: inline-block;
