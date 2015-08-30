@@ -26,6 +26,42 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.icon-bishop-left:before {
+	content: "\e602";
+}
+.icon-bishop-right:before {
+	content: "\e603";
+}
+.icon-king:before {
+	content: "\e604";
+}
+.icon-knight-right:before {
+	content: "\e605";
+}
+.icon-knight-left:before {
+	content: "\e606";
+}
+.icon-queen:before {
+	content: "\e607";
+}
+.icon-rook-left:before {
+	content: "\e608";
+}
+.icon-rook-right:before {
+	content: "\e609";
+}
+.icon-sword-left:before {
+	content: "\e60a";
+}
+.icon-sword-right:before {
+	content: "\e60b";
+}
+.icon-swords:before {
+	content: "\e60c";
+}
+.icon-table:before {
+	content: "\e60d";
+}
 .icon-rooster:before {
 	content: "\e601";
 }
