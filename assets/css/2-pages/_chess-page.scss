@@ -33,6 +33,12 @@ main.chess {
 			background: #f7f7f7;
 		}
 
+		img {
+			float: left;
+			width: 54px;
+			height: auto;
+		}
+
 		h6 {
 			text-align: left;
 			float: left;
@@ -160,13 +166,13 @@ main.chess {
 			min-height: 580px;
 			background: url(../img/chess/hero/hero-bg.jpg) center no-repeat;
 			background-size: cover;
-			// padding: 0 0 120px;
+			padding: 50px 0 0;
 
-			svg {
-				width: 280px;
+			img {
+				width: 300px;
 				height: auto;
 				display: block;
-				margin: -30px auto 50px;
+				margin: 0 auto 120px;
 			}
 
 			h2 {
