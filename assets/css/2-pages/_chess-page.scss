@@ -3,19 +3,24 @@
 /*-------------------------------------------------------------------------*/
 main.chess {
 	text-align: center;
+	position: relative;
 
 	// header
 	header {
-		height: 161px;
+		height: 160px;
 
 		// logo
 		a.logo {
-			position: fixed;
+			position: absolute;
 			z-index: 2;
 			left: 0;
 			top: 16px;
 			background: #fff;
 			height: auto;
+
+			@include media($desktop) {
+				position: fixed;
+			}
 
 			&:after {
 				position: absolute;
@@ -54,13 +59,17 @@ main.chess {
 
 		// lang
 		nav.lang {
-			position: fixed;
+			position: absolute;
 			z-index: 2;
 			right: 0;
 			top: 16px;
 			height: auto;
 			background: #fff;
 			padding: 0 10px;
+
+			@include media($desktop) {
+				position: fixed;
+			}
 
 			&:after {
 				position: absolute;
@@ -91,20 +100,38 @@ main.chess {
 			height: auto;
 			background: #fff;
 			width: 100%;
-			// @include transition(all 0.2s $ease-out-quad);
+			z-index: 1;
+			position: absolute;
+			top: 580px;
 
 			a {
-				display: inline-block;
-				width: 200px;
+				display: block;
+				float: left;
+				width: 25%;
 				color: #55261A;
 				opacity: 1;
 
-				&:first-child {display: none;}
+				@include media($desktop) {
+					display: inline-block;
+					float: none;
+					width: 180px;
+				}
+
+				&:first-child {
+					display: none;
+				}
 
 				[class^="icon-"] {
 					color: #55261A;
 					display: block;
+					font-size: 80px;
+					line-height: 120px;
+					padding-top: 4px;
 					@include transition(all 0.2s $ease-out-quad);
+
+					@include media($tablet) {
+						font-size: 120px;
+					}
 				}
 
 				p {
@@ -113,7 +140,13 @@ main.chess {
 					font-size: 12px;
 					font-weight: 700;
 					margin: 0;
+					font-size: 10px;
+					padding-bottom: 20px;
 					@include transition(all 0.2s $ease-out-quad);
+
+					@include media($tablet) {
+						font-size: 12px;
+					}
 				}
 
 				&.active,
@@ -123,38 +156,34 @@ main.chess {
 			}
 
 			&.anhors-static {
-				position: absolute;
-				top: 580px;
-
 				a {
-
 					[class^="icon-"] {
-						font-size: 120px;
-						padding-top: 4px;
 					}
-
 					p {
-						font-size: 12px;
-						padding-bottom: 20px;
 					}
 				}
 			}
 
 			&.anhors-fixed {
-				position: fixed;
-				top: 0;
-				z-index: 1;
+				@include media($desktop) {
+					position: fixed;
+					top: 0;
+				}
 
 				a {
-
 					[class^="icon-"] {
-						font-size: 60px;
-						padding-top: 2px;
+						@include media($desktop) {
+							font-size: 60px;
+							line-height: 60px;
+							padding-top: 2px;
+						}
 					}
 
 					p {
-						font-size: 10px;
-						padding-bottom: 10px;
+						@include media($desktop) {
+							font-size: 10px;
+							padding-bottom: 10px;
+						}
 					}
 				}
 			}
@@ -195,11 +224,19 @@ main.chess {
 			}
 
 			h1 {
-				font-size: 120px;
+				font-size: 60px;
 				color: #fff;
 				font-weight: 700;
 				text-transform: uppercase;
 				margin: 0;
+
+				@include media($tablet) {
+					font-size: 90px;
+				}
+
+				@include media($desktop) {
+					font-size: 120px;
+				}
 			}
 		}
 
@@ -208,16 +245,22 @@ main.chess {
 			@include outer-container;
 
 			.owl-theme {
-				@include span-columns(6);
-				@include omega();
-				width: 50%;
+				float: left;
+				width: 100%;
+
+				@include media($desktop) {
+					width: 50%;
+				}
 			}
 
 			article {
-				@include span-columns(3);
-				@include omega();
-				width: 25%;
+				float: left;
 				position: relative;
+				width: 50%;
+
+				@include media($desktop) {
+					width: 25%;
+				}
 
 				h4 {
 					font-size: 20px;
@@ -284,21 +327,23 @@ main.chess {
 			@include outer-container;
 
 			article {
-				@include span-columns(6);
-				@include omega();
-				width: 12.5%;
 				padding-bottom: 43px;
+				float: left;
+				overflow: hidden;
+				width: 50%;
+				font-size: 80px;
 
-				img {
-					display: inline-block;
-					margin: 0 auto 10px;
-					width: 100%;
-					height: auto;
-					max-width: 120px;
+				@include media($tablet) {
+					width: 25%;
+					font-size: 100px;
+				}
+
+				@include media($desktop) {
+					width: 12.5%;
+					font-size: 120px;
 				}
 
 				[class^="icon-"] {
-					font-size: 120px;
 					color: #55261A;
 					display: block;
 					margin-bottom: 20px;
@@ -314,22 +359,26 @@ main.chess {
 			div.figure {
 				float: left;
 				position: relative;
+				width: 100%;
 
 				&.figure-01 {
-					width: 50%;
+					@include media($tablet) {
+						width: 50%;
+					}
 				}
 
 				&.figure-02 {
-					float: right;
-					width: 50%;
+					@include media($tablet) {
+						float: right;
+						width: 50%;
+					}
 				}
 
-				&.figure-03 {
-					width: 25%;
-				}
-
+				&.figure-03,
 				&.figure-04 {
-					width: 25%;
+					@include media($tablet) {
+						width: 25%;
+					}
 				}
 
 				img {
@@ -421,12 +470,10 @@ main.chess {
 			// team members
 			.members {
 				background: #55261a;
-				@include span-columns(12);
-				@include omega();
+				float: left;
+				width: 100%;
 
 				@include media($desktop) {
-					@include span-columns(6);
-					@include omega();
 					width: 50%;
 				}
 
@@ -436,12 +483,10 @@ main.chess {
 
 				article {
 					padding: 0 40px 60px;
-					@include span-columns(12);
-					@include omega();
+					float: left;
+					width: 100%;
 
 					@include media($tablet) {
-						@include span-columns(3 of 6);
-						@include omega();
 						width: 50%;
 					}
 
@@ -501,12 +546,10 @@ main.chess {
 			// team buy
 			.buy {
 				background: #4c2015;
-				@include span-columns(12);
-				@include omega();
+				float: left;
+				width: 100%;
 
 				@include media($desktop) {
-					@include span-columns(6);
-					@include omega();
 					width: 50%;
 				}
 
