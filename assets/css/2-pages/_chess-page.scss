@@ -12,7 +12,7 @@ main.chess {
 		// logo
 		a.logo {
 			position: absolute;
-			z-index: 2;
+			z-index: 3;
 			left: 0;
 			top: 16px;
 			background: #fff;
@@ -436,20 +436,30 @@ main.chess {
 			@include outer-container;
 
 			h3 {
-				padding-left: 1em;
-				padding-right: 1em;
+				padding-left: 0.5em;
+				padding-right: 0.5em;
 				position: relative;
 				display: inline-block;
 				line-height: 41px;
 
 				[class^="icon-"] {
-					font-size: 120px;
 					line-height: 1;
 					color: #55261A;
 					display: block;
 					position: absolute;
 					top: 50%;
-					margin-top: -60px;
+					font-size: 60px;
+					margin-top: -30px;
+
+					@include media($tablet) {
+						font-size: 90px;
+						margin-top: -45px;
+					}
+
+					@include media($desktop) {
+						font-size: 120px;
+						margin-top: -60px;
+					}
 				}
 
 				[class^="icon-sword-left"] {
@@ -482,7 +492,7 @@ main.chess {
 				}
 
 				article {
-					padding: 0 40px 60px;
+					padding: 0 0 60px;
 					float: left;
 					width: 100%;
 
