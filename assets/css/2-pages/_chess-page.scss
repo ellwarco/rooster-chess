@@ -256,7 +256,11 @@ main.chess {
 			article {
 				float: left;
 				position: relative;
-				width: 50%;
+				width: 100%;
+
+				@include media($tablet) {
+					width: 50%;
+				}
 
 				@include media($desktop) {
 					width: 25%;
@@ -266,12 +270,20 @@ main.chess {
 					font-size: 20px;
 					color: #55261A; 
 					margin: 0;
-					padding: 0 20%;
-					position: absolute;
-					top: 50%;
-					left: 0;
-					width: 100%;
-					@include transform(translateY(-50%));
+					padding: 40px 0;
+
+					@include media($tablet) {
+						padding: 0 10%;
+						position: absolute;
+						top: 50%;
+						left: 0;
+						width: 100%;
+						@include transform(translateY(-50%));
+					}
+
+					@include media($desktop) {
+						padding: 0 15%;
+					}
 
 					[class^="icon-hammer"] {
 						font-size: 40px;
@@ -285,6 +297,14 @@ main.chess {
 					width: 100%;
 					height: auto;
 					float: left;
+
+					&.empty {
+						display: none;
+
+						@include media($tablet) {
+							display: block;
+						}
+					}
 				}
 
 				&:hover {
