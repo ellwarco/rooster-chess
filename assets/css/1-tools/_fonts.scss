@@ -26,6 +26,12 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.icon-rooster:before {
+	content: "\e601";
+}
+.icon-eagle:before {
+	content: "\e600";
+}
 .icon-zoom-in:before {
 	content: "\32";
 }
@@ -43,9 +49,6 @@
 }
 .icon-arrow-left:before {
 	content: "\e5a9";
-}
-.icon-eagle:before {
-	content: "\e600";
 }
 .icon-twitter:before {
 	content: "\f099";

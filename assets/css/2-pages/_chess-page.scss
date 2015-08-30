@@ -334,9 +334,9 @@ main.chess {
 			background: #522316;
 			padding: 60px 0;
 
-			svg {
-				width: 120px;
-				height: auto;
+			[class^="icon-rooster"] {
+				color: #744F44;
+				font-size: 120px;
 				display: block;
 				margin: 0 auto 40px;
 			}
