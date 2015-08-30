@@ -25,14 +25,6 @@ main.chess {
 			border-width: 27px 12px 27px 0;
 		}
 
-		svg {
-			float: left;
-			width: 54px;
-			line-height: 54px;
-			font-size: 40px;
-			background: #f7f7f7;
-		}
-
 		img {
 			float: left;
 			width: 54px;
@@ -163,9 +155,9 @@ main.chess {
 			background-size: cover;
 			padding: 50px 0 0;
 
-			img {
-				width: 300px;
-				height: auto;
+			[class^="icon-"] {
+				font-size: 170px;
+				color: #fff;
 				display: block;
 				margin: 0 auto 120px;
 			}
@@ -388,14 +380,10 @@ main.chess {
 
 				[class^="icon-sword-left"] {
 					right: 100%;
-					// float: left;
-					// padding-right: 0.15em;
 				}
 
 				[class^="icon-sword-right"] {
 					left: 100%;
-					// float: right;
-					// padding-left: 0.15em;
 				}
 			}
 		}

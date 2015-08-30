@@ -26,6 +26,9 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.icon-gods-chess:before {
+	content: "\e60e";
+}
 .icon-bishop-left:before {
 	content: "\e602";
 }
