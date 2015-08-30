@@ -157,15 +157,16 @@ main.chess {
 
 		// hero
 		&.hero {
-			height: 580px;
+			min-height: 580px;
 			background: url(../img/chess/hero/hero-bg.jpg) center no-repeat;
 			background-size: cover;
-			padding: 60px 0 120px;
+			// padding: 0 0 120px;
 
-			img {
-				width: 262px;
+			svg {
+				width: 280px;
 				height: auto;
-				margin: 0 auto 120px;
+				display: block;
+				margin: -30px auto 50px;
 			}
 
 			h2 {
