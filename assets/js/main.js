@@ -5,8 +5,8 @@
 $('#anhors').singlePageNav({
 	easing: 'easeInOutExpo',
 	speed: 1250,
-	offset: 86,
 	currentClass: 'active',
+	offset: 86,
 });
 
 
@@ -71,5 +71,4 @@ $('.waypoint').each( function(i) {
 		}
 	}, { offset: '0' } );
 });
-
 
