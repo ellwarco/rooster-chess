@@ -526,19 +526,20 @@ main.chess {
 			@include outer-container;
 
 			article {
-				padding-bottom: 43px;
+				padding: 42px 0;
 				float: left;
 				overflow: hidden;
-				width: 50%;
+				width: 25%;
 				font-size: 80px;
-				background: #fff;
+				background: #f9f9f9;
 
 				@include media($tablet) {
-					width: 25%;
+					padding: 52px 0;
 					font-size: 100px;
 				}
 
 				@include media($desktop) {
+					padding: 62px 0;
 					width: 12.5%;
 					font-size: 120px;
 				}
@@ -552,6 +553,7 @@ main.chess {
 				h5 {
 					color: #55261A;
 					font-size: 16px;
+					line-height: 1;
 					margin: 0;
 				}
 			}
