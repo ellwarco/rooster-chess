@@ -12,7 +12,7 @@
 			height: auto;
 			float: left;
 			opacity: 1;
-			@include transition(all 0.1s $ease-out-quad);
+			@include transition(all 0.5s $ease-out-quad);
 			@include transform(scale(1.02) translateZ(0));
 
 			@include media($tablet) {
@@ -468,7 +468,7 @@ main.chess {
 					height: auto;
 					float: left;
 					opacity: 1;
-					@include transition(all 0.1s $ease-out-quad);
+					@include transition(all 0.5s $ease-out-quad);
 					@include transform(scale(1.02) translateZ(0));
 
 					@include media($tablet) {
@@ -587,7 +587,7 @@ main.chess {
 					height: auto;
 					float: left;
 					opacity: 1;
-					@include transition(all 0.1s $ease-out-quad);
+					@include transition(all 0.5s $ease-out-quad);
 					@include transform(scale(1.02) translateZ(0));
 
 					@include media($tablet) {
@@ -724,7 +724,7 @@ main.chess {
 							height: auto;
 							opacity: 0.75;
 							border-radius: 100%;
-							@include transition(all 0.1s $ease-out-quad);
+							@include transition(all 0.5s $ease-out-quad);
 							@include transform(scale(1.02) translateZ(0));
 						}
 
