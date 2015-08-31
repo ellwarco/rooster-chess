@@ -707,15 +707,30 @@ main.chess {
 						width: 50%;
 					}
 
-					img {
-						width: 100%;
-						height: auto;
+					figure {
 						max-width: 200px;
 						margin: 0 auto 40px;
-						border-radius: 100%;
-						opacity: 0.9;
-						@include transition(all 0.2s $ease-out-quad);
-						@include transform(scale(1.0) translateZ(0));
+						border-radius: 200px;
+						overflow: hidden;
+						position: relative;
+						z-index: 1;
+
+						img {
+							display: block;
+							width: 100%;
+							height: auto;
+							opacity: 0.75;
+							border-radius: 200px;
+							@include transition(all 0.2s $ease-out-quad);
+							@include transform(scale(1.0) translateZ(0));
+						}
+
+						&:hover {
+							img {
+								opacity: 1;
+								@include transform(scale(1.2) translateZ(0));
+							}
+						}
 					}
 
 					h4 {
@@ -734,7 +749,7 @@ main.chess {
 
 					p {
 						color: #fff;
-						margin: 0;
+						margin: 0 0 0.2em;
 						font-size: 14px;
 
 						a {
@@ -752,19 +767,13 @@ main.chess {
 						a {
 							color: #fff;
 							display: inline-block;
-							font-size: 20px;
+							font-size: 26px;
 							padding: 4px 8px;
+							margin: 0 4px;
 
 							&:hover {
 								color: rgba(255,255,255,.5);
 							}
-						}
-					}
-
-					&:hover {
-						img {
-							opacity: 1;
-							@include transform(scale(1.2) translateZ(0));
 						}
 					}
 				}
@@ -802,8 +811,9 @@ main.chess {
 					a {
 						color: #fff;
 						display: inline-block;
-						font-size: 30px;
+						font-size: 36px;
 						padding: 4px 8px;
+						margin: 0 4px;
 
 						&:hover {
 							color: rgba(255,255,255,.5);
