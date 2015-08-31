@@ -19,6 +19,7 @@ t:
       Contact: 'Contact'
       AntonPivniuk: 'Anton Pivniuk'
       IhorOrlovskyi: 'Ihor Orlovskyi'
+      KyivUkraine: 'Kyiv, Ukraine'
   pl:
     chess:
       ItsNotChessTable: 'To Nie Szachy Tabela'
@@ -39,6 +40,7 @@ t:
       Contact: 'Kontakt'
       AntonPivniuk: 'Anton Pivniuk'
       IhorOrlovskyi: 'Ihor Orlovskyi'
+      KyivUkraine: 'Kijów, Ukraina'
   ua:
     chess:
       ItsNotChessTable: 'Це не шаховий стіл'
@@ -59,6 +61,7 @@ t:
       Contact: 'Контакти'
       AntonPivniuk: 'Антон Півнюк'
       IhorOrlovskyi: 'Ігор Орловський'
+      KyivUkraine: 'Київ, Україна'
   ru:
     chess:
       ItsNotChessTable: 'Это не шахматный стол'
@@ -79,5 +82,6 @@ t:
       Contact: 'Контакты'
       AntonPivniuk: 'Антон Пивнюк'
       IhorOrlovskyi: 'Игорь Орловский'
+      KyivUkraine: 'Киев, Украина'
 
 
