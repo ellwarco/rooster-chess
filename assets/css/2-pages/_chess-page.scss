@@ -13,7 +13,7 @@
 			float: left;
 			opacity: 1;
 			@include transition(all 0.2s $ease-out-quad);
-			@include transform(scale(1.05) translateZ(0));
+			@include transform(scale(1.02) translateZ(0));
 
 			@include media($tablet) {
 				opacity: 0.5;
@@ -469,7 +469,7 @@ main.chess {
 					float: left;
 					opacity: 1;
 					@include transition(all 0.2s $ease-out-quad);
-					@include transform(scale(1.05) translateZ(0));
+					@include transform(scale(1.02) translateZ(0));
 
 					@include media($tablet) {
 						opacity: 0.5;
@@ -588,7 +588,7 @@ main.chess {
 					float: left;
 					opacity: 1;
 					@include transition(all 0.2s $ease-out-quad);
-					@include transform(scale(1.05) translateZ(0));
+					@include transform(scale(1.02) translateZ(0));
 
 					@include media($tablet) {
 						opacity: 0.5;
@@ -725,7 +725,7 @@ main.chess {
 							opacity: 0.75;
 							border-radius: 100%;
 							@include transition(all 0.2s $ease-out-quad);
-							@include transform(scale(1.05) translateZ(0));
+							@include transform(scale(1.02) translateZ(0));
 						}
 
 						&:hover {
