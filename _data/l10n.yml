@@ -1,22 +1,22 @@
 t:
   en:
     chess:
-      ItsNotChessTable: 'Its Not Chess Table'
-      ItsWar: 'Its War'
+      ItsNotChessTable: "It's Not a Chess Table"
+      ItsWar: "It's War"
       Table: 'Table'
       ChessPieces: 'Chess Pieces'
       Game: 'Game'
       Team: 'Team'
       TableConstructionAndDetails: 'Table Construction and Details'
-      HowItsworks: 'How Its works. Prepare table for the game'
+      HowItsworks: 'How It works. Prepare the table for the game'
       Rook: 'Rook'
       Knight: 'Knight'
       Bishop: 'Bishop'
       Queen: 'Queen'
       King: 'King'
       WeAreNotChessProfessionals: 'We are not chess professionals'
-      WeLikeCreateGoodDesignProducts: 'We like create good design products'
-      Contact: 'Contact'
+      WeLikeCreateGoodDesignProducts: 'We like creating good design products'
+      Contact: 'Contact Us'
       AntonPivniuk: 'Anton Pivniuk'
       IhorOrlovskyi: 'Ihor Orlovskyi'
       KyivUkraine: 'Kyiv, Ukraine'
