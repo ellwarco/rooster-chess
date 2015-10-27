@@ -1,8 +1,8 @@
 t:
   en:
     chess:
-      ItsNotChessTable: "It's Not a Chess Table"
-      ItsWar: "It's War"
+      ItsNotChessTable: "It's more then Chess Table"
+      ItsWar: "It's a War"
       Table: 'Table'
       ChessPieces: 'Chess Pieces'
       Game: 'Game'
