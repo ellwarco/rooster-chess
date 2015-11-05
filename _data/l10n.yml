@@ -1,7 +1,7 @@
 t:
   en:
     chess:
-      ItsNotChessTable: "It's more then Chess Table"
+      ItsNotChessTable: "It's more than Chess Table"
       ItsWar: "It's a War"
       Table: 'Table'
       ChessPieces: 'Chess Pieces'
@@ -22,7 +22,7 @@ t:
       KyivUkraine: 'Kyiv, Ukraine'
   pl:
     chess:
-      ItsNotChessTable: 'To Nie Szachy Tabela'
+      ItsNotChessTable: 'To Więcej Niż Szachy Tabela'
       ItsWar: 'To wojna'
       Table: 'Tabela'
       ChessPieces: 'Kształty'
@@ -43,7 +43,7 @@ t:
       KyivUkraine: 'Kijów, Ukraina'
   ua:
     chess:
-      ItsNotChessTable: 'Це не шаховий стіл'
+      ItsNotChessTable: 'Це більше ніж шаховий стіл'
       ItsWar: 'Це війна'
       Table: 'Стіл'
       ChessPieces: 'Фігури'
@@ -64,7 +64,7 @@ t:
       KyivUkraine: 'Київ, Україна'
   ru:
     chess:
-      ItsNotChessTable: 'Это не шахматный стол'
+      ItsNotChessTable: 'Это больше чем шахматный стол'
       ItsWar: 'Это война'
       Table: 'Стол'
       ChessPieces: 'Фигуры'
