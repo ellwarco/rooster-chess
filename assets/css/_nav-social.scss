@@ -1,11 +1,8 @@
 nav.social {
+    margin: 40px 0;
+
     a {
         display: inline-block;
-        opacity: 1;
-        padding: 0 8px;
-
-        &:hover {
-            opacity: .6;
-        }
+        margin: 0 8px;
     }
 }

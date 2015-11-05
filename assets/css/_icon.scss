@@ -1,14 +1,43 @@
-svg.icon {
-    width: 36px;
-    height: 36px;
+$iconSize: 52px;
+
+.social-icon {
+    width: $iconSize;
+    height: $iconSize;
     display: block;
+
+    use {
+        // width: $iconSize;
+        // height: $iconSize;
+        // display: block;
+        @include transition(fill .2s ease-in-out);
+    }
 }
 
-#icon-etsy {
-    .circle {
-        fill: #fff;
+a .social-icon use {
+    fill: #fff;
+
+    &:hover {
+        fill: rgba(#fff, .6);
     }
-    .logo {
+}
+
+#facebook-icon,
+#twitter-icon,
+#linkedin-icon,
+#behance-icon,
+#eagle-icon,
+#etsy-icon {
+    circle {
+        fill: inherit;
+    }
+    path {
         fill: $firmColor;
+    }
+}
+
+#eagle-icon {
+    path {
+        transform-origin: 50% 50% 0;
+        @include transform(scale(.8));
     }
 }
