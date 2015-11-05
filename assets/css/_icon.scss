@@ -6,18 +6,15 @@ $iconSize: 52px;
     display: block;
 
     use {
-        // width: $iconSize;
-        // height: $iconSize;
-        // display: block;
         @include transition(fill .2s ease-in-out);
     }
 }
 
 a .social-icon use {
-    fill: #fff;
+    fill: rgba(#fff, .5);
 
     &:hover {
-        fill: rgba(#fff, .6);
+        fill: #fff;
     }
 }
 
