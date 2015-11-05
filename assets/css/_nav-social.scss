@@ -1,0 +1,11 @@
+nav.social {
+    a {
+        display: inline-block;
+        opacity: 1;
+        padding: 0 8px;
+
+        &:hover {
+            opacity: .6;
+        }
+    }
+}
