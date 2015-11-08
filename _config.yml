@@ -1,5 +1,5 @@
 # build settings
-baseurl: /lehrplattform
+baseurl: 
 markdown: kramdown
 permalink: pretty
 
