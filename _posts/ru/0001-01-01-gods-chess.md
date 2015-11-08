@@ -2,9 +2,9 @@
 layout: default
 type: pages
 
-title: Шахи
+title: Шахматы
 name: chess
-permalink: /ua/
+permalink: /ru/gods-chess/
 ---
 
 {% include chess.html %}
