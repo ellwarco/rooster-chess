@@ -1,4 +1,0 @@
----
-layout: lehrplattform
-permalink: /lehrplattform
----
