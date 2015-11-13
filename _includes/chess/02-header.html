@@ -7,7 +7,7 @@
     {% assign posts=site.posts | where:"name", page.name | sort: 'path' %}
     <nav class="lang">
     {% for post in posts %}
-        <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang }}</a>
+        <a href="{{ post.url }}" class="{{ post.lang }} language" data-language="{{ post.lang }}">{{ post.lang }}</a>
     {% endfor %}
     </nav>
 
