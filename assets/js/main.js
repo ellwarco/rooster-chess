@@ -73,26 +73,26 @@ $('.waypoint').each( function(i) {
 });
 
 
-$(document).ready(function() {
+$(function() {
     $(document).languageDetection({
         domain: '',
         languages: [
             {
                 code : 'en',
-                path : '',
-                defaultLanguage : true
+                path : '/'
             },
             {
                 code : 'pl',
-                path : 'pl/gods-chess/'
+                path : '/pl/gods-chess/'
             },
             {
                 code : 'ua',
-                path : 'ua/gods-chess/'
+                path : '/ua/gods-chess/',
+                defaultLanguage : true
             },
             {
                 code : 'ru',
-                path : 'ru/gods-chess/'
+                path : '/ru/gods-chess/'
             }
         ]
     });

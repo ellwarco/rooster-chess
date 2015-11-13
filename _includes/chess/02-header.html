@@ -4,11 +4,11 @@
         <h6><span>Rooster</span> Studio</h6>
     </a>
 
-    {% assign posts=site.posts | where:"name", page.name | sort: 'path' %}
     <nav class="lang">
-    {% for post in posts %}
-        <a href="{{ post.url }}" class="{{ post.lang }} language" data-language="{{ post.lang }}">{{ post.lang }}</a>
-    {% endfor %}
+        <a href="{{ site.baseurl }}/" class="en language" data-language="en">en</a>
+        <a href="{{ site.baseurl }}/pl/gods-chess/" class="pl language" data-language="pl">pl</a>
+        <a href="{{ site.baseurl }}/ua/gods-chess/" class="ua language" data-language="ua">ua</a>
+        <a href="{{ site.baseurl }}/ru/gods-chess/" class="ru language" data-language="ru">ru</a>
     </nav>
 
     <nav id="anhors" class="waypoint anhors anhors-static" data-animate-down="anhors-fixed" data-animate-up="anhors-static">
