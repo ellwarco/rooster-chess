@@ -73,6 +73,10 @@ $('.waypoint').each( function(i) {
 });
 
 
+/**
+* languageDetection
+* https://github.com/danieledesantis/jquery-language-detection
+*/
 $(function() {
     $(document).languageDetection({
         domain: '',
