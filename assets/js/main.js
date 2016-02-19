@@ -77,27 +77,27 @@ $('.waypoint').each( function(i) {
 * languageDetection
 * https://github.com/danieledesantis/jquery-language-detection
 */
-$(function() {
-    $(document).languageDetection({
-        domain: '',
-        languages: [
-            {
-                code : 'en',
-                path : '/'
-            },
-            {
-                code : 'pl',
-                path : '/pl/gods-chess/'
-            },
-            {
-                code : 'ua',
-                path : '/ua/gods-chess/',
-                defaultLanguage : true
-            },
-            {
-                code : 'ru',
-                path : '/ru/gods-chess/'
-            }
-        ]
-    });
-});
+// $(function() {
+//     $(document).languageDetection({
+//         domain: '',
+//         languages: [
+//             {
+//                 code : 'en',
+//                 path : '/'
+//             },
+//             {
+//                 code : 'pl',
+//                 path : '/pl/gods-chess/'
+//             },
+//             {
+//                 code : 'ua',
+//                 path : '/ua/gods-chess/',
+//                 defaultLanguage : true
+//             },
+//             {
+//                 code : 'ru',
+//                 path : '/ru/gods-chess/'
+//             }
+//         ]
+//     });
+// });
