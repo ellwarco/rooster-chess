@@ -7,20 +7,8 @@ $('#anhors').singlePageNav({
     speed: 1250,
     currentClass: 'active',
     offset: 86,
+    updateHash: true
 });
-
-
-/**
-* navbar collapse on scroll
-*/
-// $(window).scroll(function() {
-//  if ($("#anhors-fixed").offset().top > 580) {
-//      $("#anhors-fixed").addClass("anhors-fixed");
-//  } else {
-//      $("#anhors-fixed").removeClass("anhors-fixed");
-//  }
-// });
-
 
 /**
 * OwlCarousel
@@ -52,7 +40,6 @@ $(function() {
     });
 });
 
-
 /**
 * waypoint
 * https://github.com/imakewebthings/waypoints
@@ -71,33 +58,3 @@ $('.waypoint').each( function(i) {
         }
     }, { offset: '0' } );
 });
-
-
-/**
-* languageDetection
-* https://github.com/danieledesantis/jquery-language-detection
-*/
-// $(function() {
-//     $(document).languageDetection({
-//         domain: '',
-//         languages: [
-//             {
-//                 code : 'en',
-//                 path : '/'
-//             },
-//             {
-//                 code : 'pl',
-//                 path : '/pl/gods-chess/'
-//             },
-//             {
-//                 code : 'ua',
-//                 path : '/ua/gods-chess/',
-//                 defaultLanguage : true
-//             },
-//             {
-//                 code : 'ru',
-//                 path : '/ru/gods-chess/'
-//             }
-//         ]
-//     });
-// });

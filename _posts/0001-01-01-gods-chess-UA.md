@@ -1,11 +1,9 @@
 ---
 layout: default
-type: pages
+permalink: /ua/gods-chess/
 lang: ua
 
 title: Шахи
-name: chess
-permalink: /ua/gods-chess/
 
 ItsNotChessTable: 'Це більше ніж шаховий стіл'
 ItsWar: 'Це війна'

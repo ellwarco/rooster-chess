@@ -1,11 +1,9 @@
 ---
 layout: default
-type: pages
+permalink: /
 lang: en
 
 title: Chess
-name: chess
-permalink: /
 
 ItsNotChessTable: "It's more than Chess Table"
 ItsWar: "It's a War"

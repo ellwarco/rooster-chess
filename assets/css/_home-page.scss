@@ -3,15 +3,16 @@
 /*-------------------------------------------------------------------------*/
 .index {
     text-align: center;
+    background: linear-gradient(to top, #fff, #ccc);
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    padding: 40px 10px 80px;
 
     img {
-        margin: 10% auto;
+        margin: 0 auto 30px;
         width: 100%;
-        max-width: 300px;
         height: auto;
+        max-width: 180px;
     }
-}
-
-h1.us-font {
-    font-family: Arial, sans-serif;
 }

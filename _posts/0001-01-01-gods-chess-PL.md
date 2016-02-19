@@ -1,11 +1,9 @@
 ---
 layout: default
-type: pages
+permalink: /pl/gods-chess/
 lang: pl
 
 title: Szachy
-name: chess
-permalink: /pl/gods-chess/
 
 ItsNotChessTable: 'To Więcej Niż Szachy Tabela'
 ItsWar: 'To wojna'

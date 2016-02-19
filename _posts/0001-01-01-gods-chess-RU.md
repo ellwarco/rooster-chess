@@ -1,11 +1,9 @@
 ---
 layout: default
-type: pages
+permalink: /ru/gods-chess/
 lang: ru
 
 title: Шахматы
-name: chess
-permalink: /ru/gods-chess/
 
 ItsNotChessTable: 'Это больше чем шахматный стол'
 ItsWar: 'Это война'
