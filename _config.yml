@@ -1,11 +1,6 @@
-# build settings
 baseurl: 
-markdown: kramdown
-permalink: pretty
 
-lang: en
-
-exclude: ['README.md']
+exclude: ['README.md', 'CNAME']
 
 sass:
   sass_dir: assets/css
