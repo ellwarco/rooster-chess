@@ -1,9 +1,11 @@
 ---
-layout: default
+layout: chess
 permalink: /
 lang: en
 
 title: Chess
+description: 
+og-image: http://rooooster.com/content/chess/og-chess.jpg
 
 ItsNotChessTable: "It's more than Chess Table"
 ItsWar: "It's a War"
@@ -25,4 +27,3 @@ AntonPivniuk: 'Anton Pivniuk'
 IhorOrlovskyi: 'Ihor Orlovskyi'
 KyivUkraine: 'Kyiv, Ukraine'
 ---
-{% include chess.html %}

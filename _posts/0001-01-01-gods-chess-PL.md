@@ -1,9 +1,11 @@
 ---
-layout: default
+layout: chess
 permalink: /pl/gods-chess/
 lang: pl
 
 title: Szachy
+description: 
+og-image: http://rooooster.com/content/chess/og-chess.jpg
 
 ItsNotChessTable: 'To Więcej Niż Szachy Tabela'
 ItsWar: 'To wojna'
@@ -25,4 +27,3 @@ AntonPivniuk: 'Anton Pivniuk'
 IhorOrlovskyi: 'Ihor Orlovskyi'
 KyivUkraine: 'Kijów, Ukraina'
 ---
-{% include chess.html %}
