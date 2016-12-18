@@ -4,7 +4,7 @@ permalink: /
 lang: en
 
 title: Chess
-description: 
+description: Chess
 og-image: http://rooooster.com/content/chess/og-chess.jpg
 
 ItsNotChessTable: "It's more than Chess Table"

@@ -4,7 +4,7 @@ permalink: /pl/gods-chess/
 lang: pl
 
 title: Szachy
-description: 
+description: Szachy
 og-image: http://rooooster.com/content/chess/og-chess.jpg
 
 ItsNotChessTable: 'To Więcej Niż Szachy Tabela'

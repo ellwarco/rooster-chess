@@ -1,5 +1,5 @@
 baseurl: 
-
+include: ['_pages']
 exclude: ['README.md', 'CNAME']
 
 sass:

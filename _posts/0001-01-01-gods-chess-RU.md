@@ -4,7 +4,7 @@ permalink: /ru/gods-chess/
 lang: ru
 
 title: Шахматы
-description: 
+description: Шахматы
 og-image: http://rooooster.com/content/chess/og-chess.jpg
 
 ItsNotChessTable: 'Это больше чем шахматный стол'

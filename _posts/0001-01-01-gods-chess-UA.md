@@ -4,7 +4,7 @@ permalink: /ua/gods-chess/
 lang: ua
 
 title: Шахи
-description: 
+description: Шахи
 og-image: http://rooooster.com/content/chess/og-chess.jpg
 
 ItsNotChessTable: 'Це більше ніж шаховий стіл'
