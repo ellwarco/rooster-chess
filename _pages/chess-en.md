@@ -5,7 +5,7 @@ lang: en
 
 title: Chess
 description: Chess
-og-image: http://rooooster.com/content/chess/og-chess.jpg
+og-image: http://rooooster.com/assets/img/og-images/chess.jpg
 
 ItsNotChessTable: "It's more than Chess Table"
 ItsWar: "It's a War"

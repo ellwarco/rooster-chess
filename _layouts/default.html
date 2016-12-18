@@ -26,16 +26,12 @@ layout: compress
 
     {{ content }}
 
-    <script src="{{ site.baseurl }}/assets/js/vendor/jquery-1.11.3.min.js"></script>
-    <script src="{{ site.baseurl }}/assets/js/vendor/jquery.easing.min.js"></script>
-    <script src="{{ site.baseurl }}/assets/js/vendor/jquery.singlePageNav.min.js"></script>
-    <script src="{{ site.baseurl }}/assets/js/vendor/owl.carousel.min.js"></script>
-    <script src="{{ site.baseurl }}/assets/js/vendor/jquery.waypoints.min.js"></script>
-    <script src="{{ site.baseurl }}/assets/js/vendor/fresco.min.js"></script>
-    <script src="{{ site.baseurl }}/assets/js/main.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/bundle.min.js"></script>
 
-    {% include Analytics/google-analytics.html %}
-    {% include Analytics/yandex-metrika.html %}
+    {% if jekyll.environment == 'production' %}
+        {% include Analytics/google-analytics.html %}
+        {% include Analytics/yandex-metrika.html %}
+    {% endif %}
 
 </body>
 </html>

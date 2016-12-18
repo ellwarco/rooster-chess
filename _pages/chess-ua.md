@@ -5,7 +5,7 @@ lang: ua
 
 title: Шахи
 description: Шахи
-og-image: http://rooooster.com/content/chess/og-chess.jpg
+og-image: http://rooooster.com/assets/img/og-images/chess.jpg
 
 ItsNotChessTable: 'Це більше ніж шаховий стіл'
 ItsWar: 'Це війна'

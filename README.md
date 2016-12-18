@@ -1,15 +1,21 @@
-# Rooster Studio
+# rooooster.github.io
 
-### Beauty Guards
-
-Web development of Rooster Studio site
-
-### Run
-
-`jekyll serve -w --baseurl ""`
+_Web development of Rooster Studio site_
 
 ### Used
 
-Static site generator - [Jekyll](https://jekyllrb.com)
+[Jekyll](https://jekyllrb.com) - static site generator based on [Ruby](https://www.ruby-lang.org)
 
-Proudly hosted by [GitHub Pages](https://pages.github.com)
+[Gulp](http://gulpjs.com) - build system based on [NodeJS](https://nodejs.org)
+
+[Coriolan UI](https://coriolan-ui.github.io) - [Sass](http://sass-lang.com) mixins pack
+
+[GitHub Pages](https://pages.github.com) - free hosting
+
+### Run
+
+`npm i`
+
+`gulp watch`
+
+#### Have fun! :)

@@ -5,7 +5,7 @@ lang: pl
 
 title: Szachy
 description: Szachy
-og-image: http://rooooster.com/content/chess/og-chess.jpg
+og-image: http://rooooster.com/assets/img/og-images/chess.jpg
 
 ItsNotChessTable: 'To Więcej Niż Szachy Tabela'
 ItsWar: 'To wojna'

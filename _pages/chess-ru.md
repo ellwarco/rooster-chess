@@ -5,7 +5,7 @@ lang: ru
 
 title: Шахматы
 description: Шахматы
-og-image: http://rooooster.com/content/chess/og-chess.jpg
+og-image: http://rooooster.com/assets/img/og-images/chess.jpg
 
 ItsNotChessTable: 'Это больше чем шахматный стол'
 ItsWar: 'Это война'
