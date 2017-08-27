@@ -5,7 +5,7 @@ lang: en
 
 title: Rooster Studio
 description: Rooster Studio
-og-image: http://rooooster.com/assets/img/og-images/home.jpg
+og-image: https://rooster-chess.netlify.com/assets/img/og-images/chess.jpg
 ---
 
 <div class="home">

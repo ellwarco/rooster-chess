@@ -1,12 +1,10 @@
 ---
 layout: chess
-permalink: /ru/gods-chess/
+permalink: /ru/
 lang: ru
-
 title: Шахматы
 description: Шахматы
-og-image: http://rooooster.com/assets/img/og-images/chess.jpg
-
+og-image: https://rooster-chess.netlify.com/assets/img/og-images/chess.jpg
 ItsNotChessTable: 'Это больше чем шахматный стол'
 ItsWar: 'Это война'
 Table: 'Стол'

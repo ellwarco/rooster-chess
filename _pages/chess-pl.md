@@ -1,12 +1,10 @@
 ---
 layout: chess
-permalink: /pl/gods-chess/
+permalink: /pl/
 lang: pl
-
 title: Szachy
 description: Szachy
-og-image: http://rooooster.com/assets/img/og-images/chess.jpg
-
+og-image: https://rooster-chess.netlify.com/assets/img/og-images/chess.jpg
 ItsNotChessTable: 'To Więcej Niż Szachy Tabela'
 ItsWar: 'To wojna'
 Table: 'Tabela'

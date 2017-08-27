@@ -2,11 +2,9 @@
 layout: chess
 permalink: /
 lang: en
-
 title: Chess
 description: Chess
-og-image: http://rooooster.com/assets/img/og-images/chess.jpg
-
+og-image: https://rooster-chess.netlify.com/assets/img/og-images/chess.jpg
 ItsNotChessTable: "It's more than Chess Table"
 ItsWar: "It's a War"
 Table: 'Table'
