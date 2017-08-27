@@ -1,4 +1,4 @@
-baseurl: '/chess'
+baseurl: ''
 include: ['_pages']
 exclude: [
     'README.md',

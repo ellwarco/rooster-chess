@@ -5,6 +5,6 @@ var gulp = require('gulp'),
 gulp.task('jekyll-build', ['js-uglify'], function (done) {
     browserSync.notify('gulp jekyll-build');
     var jekyll = process.platform === "win32" ? "jekyll.bat" : "jekyll";
-    return cp.spawn(jekyll, ['build', '--config', '_config.yml,_config_dev.yml'], {stdio: 'inherit'})
+    return cp.spawn(jekyll, ['build', '--config', '_config.yml'], {stdio: 'inherit'})
         .on('close', done);
 });
