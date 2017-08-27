@@ -1,6 +1,6 @@
-# chess
+# rooster-chess
 
-_Web development of Rooster Studio Chess Table site_
+_Web development of Rooster Chess site_
 
 ### Used
 
