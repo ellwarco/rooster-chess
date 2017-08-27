@@ -1,3 +1,11 @@
-baseurl: ''
+baseurl: '/chess'
 include: ['_pages']
-exclude: ['README.md', 'package.json', 'node_modules', 'gulpfile.js', 'CNAME']
+exclude: [
+    'README.md',
+    'package.json',
+    'package-lock.json',
+    'node_modules/',
+    'gulpfile.js',
+    'Gemfile',
+    'Gemfile.lock'
+  ]
